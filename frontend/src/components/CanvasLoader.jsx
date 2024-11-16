@@ -17,7 +17,8 @@ const CanvasLoader = () => {
       <span className="canvas-loader">
         <p
           style={{
-            fontSize: "2rem",
+            fontFamily: "sans-serif",
+            fontSize: "5rem",
             color: "#fff",
             fontWeight: "bold",
           }}
