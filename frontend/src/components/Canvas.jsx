@@ -1,23 +1,25 @@
-import React, { useRef } from "react";
-import { useGLTF } from "@react-three/drei";
+// import React, { Suspense } from "react";
+// import Damagedhelmet from "./Damagedhelmet";
+// import CanvasLoader from "./CanvasLoader";
+// import { PerspectiveCamera } from "@react-three/drei";
+// const Canvas = () => {
+//   return (
+//     <div className="w-full h-full absolute inset-0">
+//       <Canvas>
+//         <Suspense fallback={<CanvasLoader />}>
+//           <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+//           <Damagedhelmet />
+//           <ambientLight intensity={1} />
+//           <directionalLight position={[10, 10, 10]} intensity={0.5} />
+//         </Suspense>
+//       </Canvas>
+//     </div>
+//   );
+// };
 
-const Canvas = (props) => {
-  const { nodes, materials } = useGLTF("/models/damaged_helmet.glb");
-  return (
-    <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_4.geometry}
-          material={materials.Material_MR}
-          rotation={[Math.PI / 2, 0, 0]}
-        />
-      </group>
-    </group>
-  );
-};
+// export default Canvas;
 
-useGLTF.preload("/models/damaged_helmet.glb");
-
-export default Canvas;
+//ref={modelRef}
+// scale={isMobile ? 0.09 : 0.105}
+// position={isMobile ? [1, -5, 2] : [0, -5, 2]}
+// rotation={[0, 160.25, 0]}

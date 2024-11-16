@@ -1,10 +1,10 @@
 import React from "react";
-import Canvas from "./components/Canvas";
+import SceneCanvas from "./components/SceneCanvas"; 
 
 const App = () => {
   return (
-    <div>
-      <Canvas />
+    <div className="w-full min-h-screen">
+      <SceneCanvas /> 
     </div>
   );
 };
