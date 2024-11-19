@@ -9,8 +9,8 @@ const CanvasLoader = () => {
       center
       style={{
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: "start",
+        alignItems: "start",
         flexDirection: "column",
       }}
     >
@@ -18,7 +18,7 @@ const CanvasLoader = () => {
         <p
           style={{
             fontFamily: "sans-serif",
-            fontSize: "5rem",
+            fontSize: "1.5rem",
             color: "#fff",
             fontWeight: "bold",
           }}

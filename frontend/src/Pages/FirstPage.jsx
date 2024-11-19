@@ -27,7 +27,7 @@ const FirstPage = () => {
       <img
         src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3"
         alt="Cyberpunk Logo"
-        className="absolute w-full h-screen top-1/2 left-1/2 z-[11]  -translate-x-1/2 -translate-y-1/2 mix-blend-screen scale-x-80 filter saturate-150 contrast-125"
+        className="absolute pointer-events-none w-full h-screen top-1/2 left-1/2 z-[11]  -translate-x-1/2 -translate-y-1/2 mix-blend-screen scale-x-80 filter saturate-150 contrast-125"
       />
     </div>
   );
