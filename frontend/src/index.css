@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -17,4 +15,15 @@ body {
   background-color: black;
 }
 
+.vertical-timeline-element-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  color: #ccc;
+}
 
+.vertical-timeline-element-content ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

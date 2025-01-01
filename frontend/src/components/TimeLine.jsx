@@ -20,6 +20,7 @@ const Timeline = () => {
             background: "#1D1836",
             color: "#fff",
             borderRadius: "12px",
+            borderBottom:"3px solid white",
             boxShadow: "0 12px 24px rgba(0, 0, 0, 0.2)",
             padding: "20px",
             transition: "all 0.3s ease-in-out",
@@ -45,13 +46,13 @@ const Timeline = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <h2 className="text-2xl font-semibold text-white">
+            <p className="text-2xl font-semibold text-white">
               {experience.title}
-            </h2>
+            </p>
             <p className="text-gray-400">{experience.company_name}</p>
             <ul>
               {experience.points.map((point, i) => (
-                <li key={i}>{point}</li>
+                <li className="" key={i}>{point}</li>
               ))}
             </ul>
             <div className="mt-4">

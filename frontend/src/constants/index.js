@@ -2,8 +2,8 @@ import { DiApple } from "react-icons/di";
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company_name: "TechCorp Innovations",
+    title: "loerem ipsum",
+    company_name: "loerem ",
     icon: DiApple,
     iconBg: "#f0f0f0",
     date: "June 2022 - August 2022",
@@ -16,8 +16,8 @@ const experiences = [
   },
 
   {
-    title: "Frontend Developer Intern",
-    company_name: "WebWorks Studios",
+    title: "loerem ipsum",
+    company_name: "loerem ",
     icon: DiApple,
     iconBg: "#e0e0e0",
     date: "September 2022 - December 2022",
@@ -30,8 +30,8 @@ const experiences = [
   },
 
   {
-    title: "Data Analyst Intern",
-    company_name: "Insight Analytics",
+    title: "loerem ipsum",
+    company_name: "loerem ",
     icon: DiApple,
     iconBg: "#d9d9d9",
     date: "March 2023 - May 2023",
@@ -44,8 +44,8 @@ const experiences = [
   },
 
   {
-    title: "Product Manager Intern",
-    company_name: "InnovateNow",
+    title: "loerem ipsum",
+    company_name: "lorem ",
     icon: DiApple,
     iconBg: "#cfcfcf",
     date: "July 2023 - September 2023",
