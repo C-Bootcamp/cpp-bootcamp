@@ -28,7 +28,7 @@ const SceneCanvas = forwardRef((props, ref) => {
             files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/moonless_golf_4k.hdr"
             background={false}
           />
-          <OrbitControls />
+          <OrbitControls enableZoom={false} />
         </Suspense>
       </Canvas>
     </div>
